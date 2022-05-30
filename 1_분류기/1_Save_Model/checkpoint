@@ -1,0 +1,2 @@
+model_checkpoint_path: "bidirectional_lstm_(final)_Project_tags"
+all_model_checkpoint_paths: "bidirectional_lstm_(final)_Project_tags"
