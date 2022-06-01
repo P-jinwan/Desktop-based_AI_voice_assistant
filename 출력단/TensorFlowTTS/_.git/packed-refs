@@ -1,0 +1,22 @@
+# pack-refs with: peeled fully-peeled sorted 
+62796295284c7cc19f3224df1116a82ce3b1c1d7 refs/remotes/origin/dev/aligntts
+9e56c19371695d3aadea77d20fd2eb9769b7e99c refs/remotes/origin/dev/flowtts
+0d9ecb9da6b8eca4006b6257d0c8a4a2d2490fa8 refs/remotes/origin/fix-gan-2-steps
+aa32b26239365d2beeea32b2432faac3fcb2d2b6 refs/remotes/origin/gh-pages
+136877136355c82d7ba474ceb7a8f133bd84767e refs/remotes/origin/master
+d8cf1f11f64a6ca261f5fb874641008083c8624e refs/remotes/origin/r0.11
+b8d8dbfb52140ab7360c4e3cdfbc4c07d7a81725 refs/remotes/origin/r0.7
+8d07cc02ec22f69fd9f58289c92c30a43bb1ac8d refs/remotes/origin/r0.8
+3b5c50ef7900a57e80d1559a52e9e34ab4f24f10 refs/remotes/origin/r0.9
+62b94dfd5a54d4d9cd1c476107cbeae52926d3f2 refs/remotes/origin/r1.1
+294bfbb24a8ec2de095044dce0f313303bfc6fa6 refs/remotes/origin/r1.6
+4b9a446152f936505ce3baee0f46d8f75c19c32f refs/remotes/origin/r1.6.1
+e4b3b35305f5a5e93748fcad4cfaad6c48d4f24a refs/remotes/origin/r1.8
+d8cf1f11f64a6ca261f5fb874641008083c8624e refs/tags/v0.11
+e8a0d8592fb77c9abe93456f7a1b040da52da41a refs/tags/v0.7
+6f3bebf97dcf9ce097d68f5649fe14915ca4ebc5 refs/tags/v0.8
+3b5c50ef7900a57e80d1559a52e9e34ab4f24f10 refs/tags/v0.9
+62b94dfd5a54d4d9cd1c476107cbeae52926d3f2 refs/tags/v1.1
+0eaac747b736613528fa66ec1527b15fe0bb7000 refs/tags/v1.6
+4b9a446152f936505ce3baee0f46d8f75c19c32f refs/tags/v1.6.1
+e4b3b35305f5a5e93748fcad4cfaad6c48d4f24a refs/tags/v1.8
