@@ -11,4 +11,5 @@
 ---
 
 ## 구현 기능별 시연 영상(Demonstration video by implementation function)
+1. 날씨 리뷰</br>
 https://user-images.githubusercontent.com/96413630/171378947-a0e85f20-0b37-4fb6-b2f0-f2cf82863b72.mp4
