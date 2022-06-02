@@ -20,8 +20,8 @@ https://user-images.githubusercontent.com/96413630/171378947-a0e85f20-0b37-4fb6-
 ---
 
 ## 목차(Contents)
-1. [프로젝트 개요]
-2. [프로젝트 수행 절차]
+1. [프로젝트 개요](https://github.com/P-jinwan/Desktop-based_AI_voice_assistant/blob/master/README.md#%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EA%B0%9C%EC%9A%94project-summary)
+2. [프로젝트 수행 절차](https://github.com/P-jinwan/Desktop-based_AI_voice_assistant/blob/master/README.md#%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%88%98%ED%96%89-%EC%A0%88%EC%B0%A8execution-procedure)
 3. [출처 및 참고 사이트]
 4. [개선 사항 및 어려웠던 점과 느낀 점]
 
@@ -51,10 +51,20 @@ https://user-images.githubusercontent.com/96413630/171378947-a0e85f20-0b37-4fb6-
 ---
 
 ## 프로젝트 수행 절차(Execution Procedure)
-1. [블록 다이어그램]
-2. [음성 수집]
-3. [소음 감소 필터]
-4. [생체 인식]
+1. [블록 다이어그램](https://github.com/P-jinwan/Desktop-based_AI_voice_assistant/blob/master/README.md#1-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%88%98%ED%96%89-%EC%A0%88%EC%B0%A8---%EB%B8%94%EB%A1%9D-%EB%8B%A4%EC%9D%B4%EC%96%B4%EA%B7%B8%EB%9E%A8)
+2. [음성 수집](https://github.com/P-jinwan/Desktop-based_AI_voice_assistant/blob/master/README.md#2-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%88%98%ED%96%89-%EC%A0%88%EC%B0%A8---%EC%9D%8C%EC%84%B1-%EC%88%98%EC%A7%91get-voice)
+3. [소음 감소 필터](https://github.com/P-jinwan/Desktop-based_AI_voice_assistant/blob/master/README.md#3-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%88%98%ED%96%89-%EC%A0%88%EC%B0%A8---%EC%86%8C%EC%9D%8C-%EA%B0%90%EC%86%8C-%ED%95%84%ED%84%B0noise-reduction-filter)
+4. [생체 인식](https://github.com/P-jinwan/Desktop-based_AI_voice_assistant/blob/master/README.md#4-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%88%98%ED%96%89-%EC%A0%88%EC%B0%A8---%EC%83%9D%EC%B2%B4-%EC%9D%B8%EC%8B%9Dbiometrics)
+5. [음성 유사도 비교](https://github.com/P-jinwan/Desktop-based_AI_voice_assistant/edit/master/README.md#5-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%88%98%ED%96%89-%EC%A0%88%EC%B0%A8---%EC%9D%8C%EC%84%B1-%EC%9C%A0%EC%82%AC%EB%8F%84-%EB%B9%84%EA%B5%90comparison-of-speech-similarities)
+6. [호출어 인식](https://github.com/P-jinwan/Desktop-based_AI_voice_assistant/edit/master/README.md#6-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%88%98%ED%96%89-%EC%A0%88%EC%B0%A8---%ED%98%B8%EC%B6%9C%EC%96%B4-%EC%9D%B8%EC%8B%9Dwake-up-word)
+7. [STT](https://github.com/P-jinwan/Desktop-based_AI_voice_assistant/edit/master/README.md#7-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%88%98%ED%96%89-%EC%A0%88%EC%B0%A8---sttspeech-to-text)
+8. [분류기](https://github.com/P-jinwan/Desktop-based_AI_voice_assistant/edit/master/README.md#8-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%88%98%ED%96%89-%EC%A0%88%EC%B0%A8---%EB%B6%84%EB%A5%98%EA%B8%B0classification-model)
+9. [디코더](https://github.com/P-jinwan/Desktop-based_AI_voice_assistant/edit/master/README.md#9-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%88%98%ED%96%89-%EC%A0%88%EC%B0%A8---%EB%94%94%EC%BD%94%EB%8D%94decoder)
+10. [① 프로그램 제어](https://github.com/P-jinwan/Desktop-based_AI_voice_assistant/edit/master/README.md#10-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%88%98%ED%96%89-%EC%A0%88%EC%B0%A8----%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8-%EC%A0%9C%EC%96%B4)
+11. [② 제스처 제어](https://github.com/P-jinwan/Desktop-based_AI_voice_assistant/edit/master/README.md#11-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%88%98%ED%96%89-%EC%A0%88%EC%B0%A8----%EC%A0%9C%EC%8A%A4%EC%B2%98-%EC%A0%9C%EC%96%B4)
+12. [③ 모니터 축소 및 확대 제어](https://github.com/P-jinwan/Desktop-based_AI_voice_assistant/edit/master/README.md#12-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%88%98%ED%96%89-%EC%A0%88%EC%B0%A8----%EB%AA%A8%EB%8B%88%ED%84%B0-%EC%B6%95%EC%86%8C-%EB%B0%8F-%ED%99%95%EB%8C%80-%EC%A0%9C%EC%96%B4)
+13. [④ 날씨 리뷰](https://github.com/P-jinwan/Desktop-based_AI_voice_assistant/edit/master/README.md#13-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%88%98%ED%96%89-%EC%A0%88%EC%B0%A8----%EB%82%A0%EC%94%A8-%EB%A6%AC%EB%B7%B0)
+14. [TTS](https://github.com/P-jinwan/Desktop-based_AI_voice_assistant/edit/master/README.md#14-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%88%98%ED%96%89-%EC%A0%88%EC%B0%A8---ttstext-to-speech)
 
 ### 1. 프로젝트 수행 절차 - 블록 다이어그램
 ![블록 다이어그램](https://user-images.githubusercontent.com/96413630/171382906-3aabcea5-41a6-4426-bc2c-8fb78b325e6b.png)
@@ -206,3 +216,13 @@ https://user-images.githubusercontent.com/96413630/171378947-a0e85f20-0b37-4fb6-
 
 #### (2) Procedure
 ![image](https://user-images.githubusercontent.com/96413630/171562304-ab9cbb4c-7cad-454b-b007-c1da7b37c79c.png)
+
+## 출처 및 참고 사이트(Reference)
+- 단어장 데이터 → [한국해양대학교 자연언어처리연구실](https://github.com/kmounlp/NER)
+- 멀티프로세싱 → [파이썬 멀티프로세싱 document](https://docs.python.org/ko/3/library/multiprocessing.html)
+- 음성 전처리 → [bytes to numpy and numpy to bytes](https://d-tail.tistory.com/32), [bytes to numpy](https://stackoverflow.com/questions/53376786/convert-byte-array-back-to-numpy-array (bytes to numpy), [BytesIO document](https://docs.python.org/ko/3/library/io.html)
+- 크롤링 → [BeautifulSoup](https://library.gabia.com/contents/9239/)
+- STT → [Kakao STT API](https://park-duck.tistory.com/entry/python-%EC%B9%B4%EC%B9%B4%EC%98%A4-%EC%9D%8C%EC%84%B1API-STT-feat-postman), [Kakao STT API 공식 문서](https://developers.kakao.com/docs/latest/ko/reference/rest-api-reference)
+- 호출어 → [호출어 관련](https://www.youtube.com/watch?v=jYgMMy8KAc0)
+- 분류기 → [LSTM + CRF](https://wikidocs.net/34156/), [NER](https://www.letr.ai/explore/tech-20210723)
+- 생체 인식 → [GMM Model](https://ratsgo.github.io/speechbook/docs/am/gmm#gaussian-mixture-model-1)
