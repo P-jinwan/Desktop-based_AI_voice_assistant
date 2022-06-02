@@ -220,7 +220,7 @@ https://user-images.githubusercontent.com/96413630/171378947-a0e85f20-0b37-4fb6-
 ## 출처 및 참고 사이트(Reference)
 - 단어장 데이터 → [한국해양대학교 자연언어처리연구실](https://github.com/kmounlp/NER)
 - 멀티프로세싱 → [파이썬 멀티프로세싱 document](https://docs.python.org/ko/3/library/multiprocessing.html)
-- 음성 전처리 → [bytes to numpy and numpy to bytes](https://d-tail.tistory.com/32), [bytes to numpy](https://stackoverflow.com/questions/53376786/convert-byte-array-back-to-numpy-array (bytes to numpy), [BytesIO document](https://docs.python.org/ko/3/library/io.html)
+- 음성 전처리 → [bytes to numpy and numpy to bytes](https://d-tail.tistory.com/32), [bytes to numpy](https://stackoverflow.com/questions/53376786/convert-byte-array-back-to-numpy-array), [BytesIO document](https://docs.python.org/ko/3/library/io.html)
 - 크롤링 → [BeautifulSoup](https://library.gabia.com/contents/9239/)
 - STT → [Kakao STT API](https://park-duck.tistory.com/entry/python-%EC%B9%B4%EC%B9%B4%EC%98%A4-%EC%9D%8C%EC%84%B1API-STT-feat-postman), [Kakao STT API 공식 문서](https://developers.kakao.com/docs/latest/ko/reference/rest-api-reference)
 - 호출어 → [호출어 관련](https://www.youtube.com/watch?v=jYgMMy8KAc0)
