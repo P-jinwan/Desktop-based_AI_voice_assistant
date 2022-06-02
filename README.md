@@ -17,6 +17,14 @@
 
 https://user-images.githubusercontent.com/96413630/171378947-a0e85f20-0b37-4fb6-b2f0-f2cf82863b72.mp4
 
+2. 날씨 리뷰
+
+https://user-images.githubusercontent.com/96413630/171571220-14546b8f-46d6-4be0-8d75-eef4df32f8bb.mp4
+
+3. 모니터 축소 및 확대
+
+![그림1](https://user-images.githubusercontent.com/96413630/171571624-335bd162-1f56-4aed-a326-a6fecb28053d.gif)
+
 ---
 
 ## 목차(Contents)
