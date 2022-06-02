@@ -22,8 +22,8 @@ https://user-images.githubusercontent.com/96413630/171378947-a0e85f20-0b37-4fb6-
 ## 목차(Contents)
 1. [프로젝트 개요](https://github.com/P-jinwan/Desktop-based_AI_voice_assistant/blob/master/README.md#%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EA%B0%9C%EC%9A%94project-summary)
 2. [프로젝트 수행 절차](https://github.com/P-jinwan/Desktop-based_AI_voice_assistant/blob/master/README.md#%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%88%98%ED%96%89-%EC%A0%88%EC%B0%A8execution-procedure)
-3. [출처 및 참고 사이트]
-4. [개선 사항 및 어려웠던 점과 느낀 점]
+3. [출처 및 참고 사이트](https://github.com/P-jinwan/Desktop-based_AI_voice_assistant/blob/master/README.md#%EC%B6%9C%EC%B2%98-%EB%B0%8F-%EC%B0%B8%EA%B3%A0-%EC%82%AC%EC%9D%B4%ED%8A%B8reference)
+4. [개선 사항 및 후기](https://github.com/P-jinwan/Desktop-based_AI_voice_assistant/edit/master/README.md#%EA%B0%9C%EC%84%A0-%EC%82%AC%ED%95%AD-%EB%B0%8F-%ED%9B%84%EA%B8%B0improvements-and-reviews)
 
 ---
 
@@ -226,3 +226,14 @@ https://user-images.githubusercontent.com/96413630/171378947-a0e85f20-0b37-4fb6-
 - 호출어 → [호출어 관련](https://www.youtube.com/watch?v=jYgMMy8KAc0)
 - 분류기 → [LSTM + CRF](https://wikidocs.net/34156/), [NER](https://www.letr.ai/explore/tech-20210723)
 - 생체 인식 → [GMM Model](https://ratsgo.github.io/speechbook/docs/am/gmm#gaussian-mixture-model-1)
+
+## 개선 사항 및 후기(Improvements and reviews)
+
+### 1. 개선 사항
+- 멀티프로세싱을 이용한 병렬 연산 처리
+- 제스처 인식 기능 향상
+- 음성 인식 기능 향상
+- 기능 추가
+
+### 2. 후기
+- 배워본 적 없는 음성의 세계에 첫 발을 내디딘 프로젝트로써 의미가 있었습니다. 또 API를 처음 사용해 보았고 처음 프로젝트와 달리 체계적으로 진행하여 블록을 맞추듯 하나 둘 조립되어 가는 과정을 보며 매우 즐거웠습니다. 개발 과정에서 어려운 점이나 문제를 겪고 해결해 나갈 때 짜릿함과 쾌감은 말로 이룰 수 없을 정도로 좋았습니다. 팀원들이 너무나도 좋은 사람들이고 실력이 다들 출중하셔서 당초 계획했던 것보다는 몸집이 커졌습니다. 그럼에도 시니어 개발자들이 보기엔 초라한 결과물이지만 즐겁고 나름 좋은 결과를 도출할 수 있어서 매우 좋았습니다. 앞으로도 음성 관련해서 공부를 더 하고 싶네요.
