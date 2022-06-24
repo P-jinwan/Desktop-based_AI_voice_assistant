@@ -68,7 +68,7 @@ https://user-images.githubusercontent.com/96413630/171571220-14546b8f-46d6-4be0-
 11. [② 제스처 제어](https://github.com/P-jinwan/Desktop-based_AI_voice_assistant/edit/master/README.md#11-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%88%98%ED%96%89-%EC%A0%88%EC%B0%A8----%EC%A0%9C%EC%8A%A4%EC%B2%98-%EC%A0%9C%EC%96%B4)
 12. [③ 모니터 축소 및 확대 제어](https://github.com/P-jinwan/Desktop-based_AI_voice_assistant/edit/master/README.md#12-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%88%98%ED%96%89-%EC%A0%88%EC%B0%A8----%EB%AA%A8%EB%8B%88%ED%84%B0-%EC%B6%95%EC%86%8C-%EB%B0%8F-%ED%99%95%EB%8C%80-%EC%A0%9C%EC%96%B4)
 13. [④ 날씨 리뷰](https://github.com/P-jinwan/Desktop-based_AI_voice_assistant/edit/master/README.md#13-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%88%98%ED%96%89-%EC%A0%88%EC%B0%A8----%EB%82%A0%EC%94%A8-%EB%A6%AC%EB%B7%B0)
-14. [TTS](https://github.com/P-jinwan/Desktop-based_AI_voice_assistant/edit/master/README.md#14-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%88%98%ED%96%89-%EC%A0%88%EC%B0%A8---ttstext-to-speech)
+14. [TTS](https://github.com/P-jinwan/Desktop-based_AI_voice_assistant#14-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%88%98%ED%96%89-%EC%A0%88%EC%B0%A8---ttstext-to-speech)
 
 ### 1. 프로젝트 수행 절차 - 블록 다이어그램
 ![블록 다이어그램](https://user-images.githubusercontent.com/96413630/171382906-3aabcea5-41a6-4426-bc2c-8fb78b325e6b.png)
