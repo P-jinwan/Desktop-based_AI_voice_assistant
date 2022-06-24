@@ -24,10 +24,10 @@ https://user-images.githubusercontent.com/96413630/171571220-14546b8f-46d6-4be0-
 ---
 
 ## 목차(Contents)
-1. [프로젝트 개요](https://github.com/P-jinwan/Desktop-based_AI_voice_assistant#%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EA%B0%9C%EC%9A%94project-summary)
-2. [프로젝트 수행 절차](https://github.com/P-jinwan/Desktop-based_AI_voice_assistant#%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%88%98%ED%96%89-%EC%A0%88%EC%B0%A8execution-procedure)
-3. [출처 및 참고 사이트](https://github.com/P-jinwan/Desktop-based_AI_voice_assistant#%EC%B6%9C%EC%B2%98-%EB%B0%8F-%EC%B0%B8%EA%B3%A0-%EC%82%AC%EC%9D%B4%ED%8A%B8reference)
-4. [개선 사항 및 후기](https://github.com/P-jinwan/Desktop-based_AI_voice_assistant#%EA%B0%9C%EC%84%A0-%EC%82%AC%ED%95%AD-%EB%B0%8F-%ED%9B%84%EA%B8%B0improvements-and-reviews)
+1. [프로젝트 개요](https://github.com/P-jinwan/Desktop-based_AI_voice_assistant/blob/master/README.md#%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EA%B0%9C%EC%9A%94project-summary)
+2. [프로젝트 수행 절차](https://github.com/P-jinwan/Desktop-based_AI_voice_assistant/blob/master/README.md#%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%88%98%ED%96%89-%EC%A0%88%EC%B0%A8execution-procedure)
+3. [출처 및 참고 사이트](https://github.com/P-jinwan/Desktop-based_AI_voice_assistant/blob/master/README.md#%EC%B6%9C%EC%B2%98-%EB%B0%8F-%EC%B0%B8%EA%B3%A0-%EC%82%AC%EC%9D%B4%ED%8A%B8reference)
+4. [개선 사항 및 후기](https://github.com/P-jinwan/Desktop-based_AI_voice_assistant/blob/master/README.md#%EA%B0%9C%EC%84%A0-%EC%82%AC%ED%95%AD-%EB%B0%8F-%ED%9B%84%EA%B8%B0improvements-and-reviews)
 
 ---
 
@@ -59,16 +59,16 @@ https://user-images.githubusercontent.com/96413630/171571220-14546b8f-46d6-4be0-
 2. [음성 수집](https://github.com/P-jinwan/Desktop-based_AI_voice_assistant/blob/master/README.md#2-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%88%98%ED%96%89-%EC%A0%88%EC%B0%A8---%EC%9D%8C%EC%84%B1-%EC%88%98%EC%A7%91get-voice)
 3. [소음 감소 필터](https://github.com/P-jinwan/Desktop-based_AI_voice_assistant/blob/master/README.md#3-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%88%98%ED%96%89-%EC%A0%88%EC%B0%A8---%EC%86%8C%EC%9D%8C-%EA%B0%90%EC%86%8C-%ED%95%84%ED%84%B0noise-reduction-filter)
 4. [생체 인식](https://github.com/P-jinwan/Desktop-based_AI_voice_assistant/blob/master/README.md#4-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%88%98%ED%96%89-%EC%A0%88%EC%B0%A8---%EC%83%9D%EC%B2%B4-%EC%9D%B8%EC%8B%9Dbiometrics)
-5. [음성 유사도 비교](https://github.com/P-jinwan/Desktop-based_AI_voice_assistant/edit/master/README.md#5-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%88%98%ED%96%89-%EC%A0%88%EC%B0%A8---%EC%9D%8C%EC%84%B1-%EC%9C%A0%EC%82%AC%EB%8F%84-%EB%B9%84%EA%B5%90comparison-of-speech-similarities)
-6. [호출어 인식](https://github.com/P-jinwan/Desktop-based_AI_voice_assistant/edit/master/README.md#6-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%88%98%ED%96%89-%EC%A0%88%EC%B0%A8---%ED%98%B8%EC%B6%9C%EC%96%B4-%EC%9D%B8%EC%8B%9Dwake-up-word)
-7. [STT](https://github.com/P-jinwan/Desktop-based_AI_voice_assistant/edit/master/README.md#7-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%88%98%ED%96%89-%EC%A0%88%EC%B0%A8---sttspeech-to-text)
-8. [분류기](https://github.com/P-jinwan/Desktop-based_AI_voice_assistant/edit/master/README.md#8-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%88%98%ED%96%89-%EC%A0%88%EC%B0%A8---%EB%B6%84%EB%A5%98%EA%B8%B0classification-model)
-9. [디코더](https://github.com/P-jinwan/Desktop-based_AI_voice_assistant/edit/master/README.md#9-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%88%98%ED%96%89-%EC%A0%88%EC%B0%A8---%EB%94%94%EC%BD%94%EB%8D%94decoder)
-10. [① 프로그램 제어](https://github.com/P-jinwan/Desktop-based_AI_voice_assistant/edit/master/README.md#10-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%88%98%ED%96%89-%EC%A0%88%EC%B0%A8----%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8-%EC%A0%9C%EC%96%B4)
-11. [② 제스처 제어](https://github.com/P-jinwan/Desktop-based_AI_voice_assistant/edit/master/README.md#11-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%88%98%ED%96%89-%EC%A0%88%EC%B0%A8----%EC%A0%9C%EC%8A%A4%EC%B2%98-%EC%A0%9C%EC%96%B4)
-12. [③ 모니터 축소 및 확대 제어](https://github.com/P-jinwan/Desktop-based_AI_voice_assistant/edit/master/README.md#12-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%88%98%ED%96%89-%EC%A0%88%EC%B0%A8----%EB%AA%A8%EB%8B%88%ED%84%B0-%EC%B6%95%EC%86%8C-%EB%B0%8F-%ED%99%95%EB%8C%80-%EC%A0%9C%EC%96%B4)
-13. [④ 날씨 리뷰](https://github.com/P-jinwan/Desktop-based_AI_voice_assistant/edit/master/README.md#13-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%88%98%ED%96%89-%EC%A0%88%EC%B0%A8----%EB%82%A0%EC%94%A8-%EB%A6%AC%EB%B7%B0)
-14. [TTS](https://github.com/P-jinwan/Desktop-based_AI_voice_assistant#14-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%88%98%ED%96%89-%EC%A0%88%EC%B0%A8---ttstext-to-speech)
+5. [음성 유사도 비교](https://github.com/P-jinwan/Desktop-based_AI_voice_assistant/blob/master/README.md#5-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%88%98%ED%96%89-%EC%A0%88%EC%B0%A8---%EC%9D%8C%EC%84%B1-%EC%9C%A0%EC%82%AC%EB%8F%84-%EB%B9%84%EA%B5%90comparison-of-speech-similarities)
+6. [호출어 인식](https://github.com/P-jinwan/Desktop-based_AI_voice_assistant/blob/master/README.md#6-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%88%98%ED%96%89-%EC%A0%88%EC%B0%A8---%ED%98%B8%EC%B6%9C%EC%96%B4-%EC%9D%B8%EC%8B%9Dwake-up-word)
+7. [STT](https://github.com/P-jinwan/Desktop-based_AI_voice_assistant/blob/master/README.md#7-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%88%98%ED%96%89-%EC%A0%88%EC%B0%A8---sttspeech-to-text)
+8. [분류기](https://github.com/P-jinwan/Desktop-based_AI_voice_assistant/blob/master/README.md#8-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%88%98%ED%96%89-%EC%A0%88%EC%B0%A8---%EB%B6%84%EB%A5%98%EA%B8%B0classification-model)
+9. [디코더](https://github.com/P-jinwan/Desktop-based_AI_voice_assistant/blob/master/README.md#9-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%88%98%ED%96%89-%EC%A0%88%EC%B0%A8---%EB%94%94%EC%BD%94%EB%8D%94decoder)
+10. [① 프로그램 제어](https://github.com/P-jinwan/Desktop-based_AI_voice_assistant/blob/master/README.md#10-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%88%98%ED%96%89-%EC%A0%88%EC%B0%A8----%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8-%EC%A0%9C%EC%96%B4)
+11. [② 제스처 제어](https://github.com/P-jinwan/Desktop-based_AI_voice_assistant/blob/master/README.md#11-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%88%98%ED%96%89-%EC%A0%88%EC%B0%A8----%EC%A0%9C%EC%8A%A4%EC%B2%98-%EC%A0%9C%EC%96%B4)
+12. [③ 모니터 축소 및 확대 제어](https://github.com/P-jinwan/Desktop-based_AI_voice_assistant/blob/master/README.md#12-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%88%98%ED%96%89-%EC%A0%88%EC%B0%A8----%EB%AA%A8%EB%8B%88%ED%84%B0-%EC%B6%95%EC%86%8C-%EB%B0%8F-%ED%99%95%EB%8C%80-%EC%A0%9C%EC%96%B4)
+13. [④ 날씨 리뷰](https://github.com/P-jinwan/Desktop-based_AI_voice_assistant/blob/master/README.md#13-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%88%98%ED%96%89-%EC%A0%88%EC%B0%A8----%EB%82%A0%EC%94%A8-%EB%A6%AC%EB%B7%B0)
+14. [TTS](https://github.com/P-jinwan/Desktop-based_AI_voice_assistant/blob/master/README.md#14-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%88%98%ED%96%89-%EC%A0%88%EC%B0%A8---ttstext-to-speech)
 
 ### 1. 프로젝트 수행 절차 - 블록 다이어그램
 ![블록 다이어그램](https://user-images.githubusercontent.com/96413630/171382906-3aabcea5-41a6-4426-bc2c-8fb78b325e6b.png)
@@ -173,7 +173,7 @@ https://user-images.githubusercontent.com/96413630/171571220-14546b8f-46d6-4be0-
 - 활성화(작업표시줄에 열린 상태)를 기준으로 프로세스에 명령을 할당하며, 활성화되어 있지 않을 경우 새로 프로세스를 실행시킴
 - 프로세스 ID, 이름, 핸들 값 등의 정보로 프로세스를 찾아 윈도우 객체로 연결시키면 해당 객체의 속성에 따라 다양한 명령 제어가 가능
 
-### 11 프로젝트 수행 절차 - ② 제스처 제어
+### 11. 프로젝트 수행 절차 - ② 제스처 제어
 ![image](https://user-images.githubusercontent.com/96413630/171560232-799221a7-6e63-42e1-9964-3168d803d602.png)
 
 #### (1) Info & Effect
